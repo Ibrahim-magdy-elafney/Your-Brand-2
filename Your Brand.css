@@ -24,7 +24,6 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 40px;
         flex-direction: column;
         text-align: center;
 
@@ -70,7 +69,6 @@ body {
 ul {
     padding-left: 20px;
 }
-
 
 .logo {
 
@@ -146,10 +144,12 @@ button {
     width: fit-content;
 }
 
+
 @media (max-width: 768px) {
     button {
         width: 100%;
     }
+
 }
 
 button:hover {
@@ -205,21 +205,6 @@ img {
 
 }
 
-.mainbox {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 450px;
-
-}
-
-.mainbox a {
-
-    color: #000;
-    text-decoration: none;
-
-}
 
 .menu-card {
     display: flex;
